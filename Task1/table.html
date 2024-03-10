@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Table with Additional Data</title>
+  <style>
+    /* CSS styling for the table */
+      
+    table {
+       
+      width: 50%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      margin-top: 300px;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Table with additional data -->
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>30</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Michael</td>
+        <td>22</td>
+        <td>UK</td>
+      </tr>
+      <!-- Add more data as needed -->
+    </tbody>
+  </table>
+
+</body>
+</html>
